@@ -1,0 +1,35 @@
+#cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  height: 15vh;
+}
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+#links a {
+  color: rgb(41, 41, 58);
+  text-decoration: none;
+  padding-right: 5px;
+  border-right: 1px solid rgb(41, 41, 58);
+  transition: all 0.5s;
+}
+#links a:hover {
+  color: rgb(255, 178, 98);
+  text-decoration: underline;
+}
+#links a.sem-barra {
+  border-right: none;
+}
+#logo {
+  width: 45px;
+}
+#logo img {
+  width: 100%;
+  height: 100%;
+}

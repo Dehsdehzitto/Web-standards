@@ -1,0 +1,60 @@
+#banner {
+    background: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 70vh;
+    background-size: cover;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  #banner .backgroundEscuro {
+    padding-bottom: 50px;
+    padding-left: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+#banner .conteudo {
+  width: 50%;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+#banner h1 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+#banner p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+}
+
+#banner a {
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #ffb262;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#banner a:hover {
+  background-color: #c06a10;
+}
