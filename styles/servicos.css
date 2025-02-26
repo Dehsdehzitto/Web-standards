@@ -54,28 +54,28 @@
   grid-column: 1 / span 1;
 }
 #consultoria {
-  background: url("/public/consultoria.png");
+  background: url("/assets/consultoria.png");
   background-size: cover;
 }
 #desenvolvimento {
-  background: url("/public/Desenvolvimento.png");
+  background: url("/assets/Desenvolvimento.png");
   background-size: cover;
   background-position: center;
 }
 #suporte {
-  background: url("/public/suporte.jpg");
+  background: url("/assets/suporte.jpg");
   background-size: cover;
 }
 #devops {
-  background: url("/public/DevOps.jpeg");
+  background: url("/assets/DevOps.jpeg");
   background-size: cover;
 }
 #mobile {
-  background: url("/public/mobile.jpg");
+  background: url("/assets/mobile.jpg");
   background-size: cover;
 }
 #ia {
-  background: url("/public/ia.png");
+  background: url("/assets/ia.png");
   background-size: cover;
 }
 .servico:hover {
