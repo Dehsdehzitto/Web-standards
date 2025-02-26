@@ -1,0 +1,86 @@
+#rodape {
+  background-color: #1d1d1d;
+  color: #e2e2e2;
+  display: flex;
+  min-height: 50vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  align-items: start;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.caixa-destaque {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.destaque {
+  background: linear-gradient(to right, #ffb262, #ff923d);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.icones {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.redes-sociais h3 {
+  color: white;
+  font-weight: 200;
+}
+.icones a {
+  width: 30px;
+  height: 30px;
+}
+.icones img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+}
+.estatistica {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.redes-sociais {
+  flex: 1;
+}
+#contato {
+  flex: 2;
+  flex-basis: 400px;
+}
+
+#contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#contato form input, textarea {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
+  border-radius: 2px;
+  padding-left: 4px;
+}
+input::placeholder { 
+  color:rgba(255,255,255,0.8);
+}
+textarea::placeholder { 
+  color:rgba(255,255,255,0.8);
+}
+#contato button {
+  background: linear-gradient(to right, #ffb262, #ff923d);
+  border: none;
+  color: white;
+  text-transform: capitalize;
+  padding: 4px 8px;
+}

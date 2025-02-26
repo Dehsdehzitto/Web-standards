@@ -4,12 +4,13 @@
   justify-content: space-around;
   align-items: center;
   gap: 5px;
-  height: 15vh;
+  min-height: 15vh;
 }
 #links {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 5px;
 }
 #links a {

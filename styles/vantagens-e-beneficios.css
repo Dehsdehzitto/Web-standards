@@ -2,6 +2,11 @@
   padding-top: 60px;
 }
 
+@media (max-width: 768px) {
+  #vantagens-e-beneficios {
+    padding-bottom: 40px;
+  }
+}
 #vantagens-e-beneficios h3 {
   text-align: center;
   font-size: 38px;
@@ -10,12 +15,20 @@
   font-weight: 500;
 }
 
+
 .caixa-vantagem {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 20px auto;
   width: 80vw;
   gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .caixa-vantagem {
+    grid-template-columns: 1fr;
+    width: 85vw;
+  }
 }
 
 .vantagem {
