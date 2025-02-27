@@ -65,23 +65,23 @@
   color: white;
 }
 #prazo {
-  background-image: url("/assets/entreganoprazo.png");
+  background-image: gray;
   background-position: center;
   background-size: cover;
 }
 #suporte24 {
-  background-image: url("/assets/suporte24.png");
+  background-image: gray;
   background-size: cover;
 }
 #certificados {
-  background-image: url("/assets/profissionais.jpg");
+  background-image: gray;
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 #quality {
   background-position: center top;
-  background-image: url("/assets/qualityassurance.jpg");
+  background-image: gray;
   background-size: cover;
 }
 
